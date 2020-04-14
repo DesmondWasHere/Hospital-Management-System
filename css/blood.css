@@ -1,0 +1,237 @@
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:rgb(255, 241, 241) ;
+}
+.nav-bar{
+    color: white;
+    text-align: center;
+    background: red;
+    height: 60px;
+    text-shadow: 1px 2px 1px rgba(0, 0,0, 0.3) ;
+}
+h2{
+font-weight: 600;
+}
+h1{
+    font-weight: 600;
+    color:rgb(207, 22, 22);
+    text-shadow: 1px 2px 1px rgba(0, 0,0, 0.3) ;
+    }
+    h3{
+        font-weight: 600;
+        color:rgb(207, 22, 22);
+        text-shadow: 1px 2px 1px rgba(0, 0,0, 0.3) ;
+        }
+.login-box{
+    background:rgb(253, 246, 246);
+    
+     
+}
+.login-box p{
+font-size: 1.3em;
+color: red;
+text-shadow: 1px 2px 1px rgba(0, 0,0, 0.3) ;
+margin-left: 50px;
+}  
+.form-login {
+    margin-left: 600px;
+    
+  color:red;
+  border-radius:2em ;
+  font-size: 1.2em;
+  
+}
+.form-login .text{
+    border: none;
+   color:white;
+    background:none ;
+    text-align: center;
+    font-size: 16px;
+    transition:0.4s;
+    line-height: 40px;
+    width: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}   
+.form-login .password{
+    border: none;
+    color:white;
+     background:none ;
+     text-align: center;
+     font-size: 16px;
+     transition:0.4s;
+     line-height: 40px;
+     width: 0;
+     cursor: pointer;
+     margin-bottom: 10px;
+ }   
+ .form-login:hover .text{
+    width: 240px;
+    background: red;border-radius: 3em;
+    
+ }
+.form-login:hover .password  {
+    width: 240px;
+    background: red;border-radius: 3em;
+}
+.form-login button{
+    color: white;
+    border-radius: 3em;
+    background: red;
+    padding: 10px;
+}
+
+/* tab section */
+.tabs{
+    cursor: pointer;
+}
+.tabs li.active{
+background: white;
+color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.tabs li{
+   background:rgb(207, 22, 22);
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin:none;
+    box-shadow: 1px 2px 1px rgba(0, 0,0, 0.3) ;
+}
+.tabs li:hover{
+    bac, 246, 246);
+    color: black;
+}
+.content{
+    display: none;
+    background:white;
+}
+.content.active{
+    display: inherit;
+    background:white;
+}
+/* form section*/
+.form-search{
+    width: 300px;
+    background: rgb(255, 249, 249);
+    height:480px;
+    box-shadow: 1px 2px 1px rgba(0, 0,0, 0.3) ;
+    margin-bottom: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.form-search .text{
+   color: black;
+    background:rgb(255, 213, 213) ;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    transition:0.4s;
+    line-height: 40px;
+     margin-bottom: 10px;
+    cursor: pointer; 
+  }
+  .form-search .text:hover{
+      border-color: rgb(207, 22, 22);
+  }
+  .form-search button{
+      background:rgb(207, 22, 22) ;
+      border-radius: 3em;
+      border: none;
+     color: cornsilk;
+      font-size: 1.2em;
+      text-align: end;
+      padding:15px;
+      float: right;
+      margin-right: 10px;
+  }  
+ .register span{
+     display: inline-block;
+ }
+  
+  /* upload*/
+  .upload{
+      margin-left:20px;
+  }
+  .upload img{
+    position: relative;
+ width:300px;
+ height: 250px;
+      
+  }
+  .upload button{
+      background: rgb(207, 22, 22);
+      color: white;
+      border-radius: 10px;
+  }
+ 
+ 
+     hr{
+        border:1px solid black;
+     }
+  h2 hr{
+      width: 330px;
+  }
+  input[type=file]{
+  padding:10px;
+  background:rgb(207, 22, 22);
+  color:white;
+}
+.process{
+    width: 900px;
+    height: max-content;
+}
+ .process p{
+     width: 800px;
+     font-weight: 400;
+ } 
+  .process img{
+     width: 300px;
+     height:max-content ;
+      } 
+.place-search{
+width: 100%;
+height: 200px;
+padding: 20px;
+
+ }
+ .place-search .text{
+    color: rgb(255, 255, 255);
+    background:rgb(250, 71, 71);
+   width: 600px;
+    text-align: center;
+    font-size: 16px;
+    transition:0.4s;
+    line-height: 40px;
+    border-color: rgb(207, 22, 22);
+    cursor: pointer; 
+    margin-top: 30px;
+ }
+ .place-search button{
+    width: 40px;
+   margin-left:610px ;
+    height: 40px;
+    background:rgb(207, 22, 22) ;
+    color: rgb(255, 255, 255);
+    border-color: rgb(207, 22, 22);
+    border-radius: 9px;
+ } 
+ 
+ .place-search .text:hover{
+    box-shadow: 5px 5px 5px 5px rgba(255, 54, 54, 0.746) ;
+ }
+ button a{
+     background: crimson;
+     color: rgb(252, 247, 248);
+     width: 200px;
+     border:3px solid red;
+ }
+
+ .para{
+  text-align: center;
+}
+
+
